@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="qa.automation.demo.Listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="qa.automation.demo.testcases.Logintest">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- qa.automation.demo.testcases.Logintest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
